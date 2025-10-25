@@ -1,7 +1,8 @@
+phoneNumber =  6272373323
 firstName=John
 lastName=Doe
 email=john.doe@example.com
-city=Seattle
+postalCode=Seattle
 cardNumber=4242424242424242
 exp=12/34
 cvc=123

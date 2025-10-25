@@ -6,6 +6,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: "https://staging.checkout.akko.app",
     specPattern: "cypress/e2e/**/*.cy.js",
+    chromeWebSecurity: false,
     video: true,
     setupNodeEvents(on, config) {
       allureWriter(on, config);
